@@ -1,24 +1,41 @@
-This backend is created for the subcription services. 
+# Subscription Service Backend
 
-To run the project
-npm i
-npm run dev
+This backend is created for the subscription services.
 
-env keys for to run the backend
+## To run the project
 
-PORT
-SERVER_URL
-NODE_ENV
-DB_URI
-JWT_SECRET  
-JWT_EXPIRES_IN
+1. Install dependencies:
+    ```bash
+    npm i
+    ```
 
-# ARCJET
-ARCJET_KEY
-ARCJET_ENV
+2. Run the project in development mode:
+    ```bash
+    npm run dev
+    ```
 
-#UPSTASH
-QSTASH_URL
-QSTASH_TOKEN
-QSTASH_CURRENT_SIGNING_KEY
-QSTASH_NEXT_SIGNING_KEY
+## Environment Variables
+
+Below are the environment variables required to run the backend:
+
+### General Environment Variables
+
+- `PORT`
+- `SERVER_URL`
+- `NODE_ENV`
+- `DB_URI`
+- `JWT_SECRET`
+- `JWT_EXPIRES_IN`
+
+### ARCJET Configuration
+
+- `ARCJET_KEY`
+- `ARCJET_ENV`
+
+### UPSTASH Configuration
+
+- `QSTASH_URL`
+- `QSTASH_TOKEN`
+- `QSTASH_CURRENT_SIGNING_KEY`
+- `QSTASH_NEXT_SIGNING_KEY`
+
